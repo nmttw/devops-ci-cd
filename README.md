@@ -12,15 +12,17 @@
  
 ##  📁  Estrutura  do Projeto
 
+```bash
 devops-ci-cd/
 ├──  src/
-│     └──  app.py
+│     └── app.py
 ├──  tests/
 │     └──  test_app.py
 ├── requirements.txt
 ├──  azure-pipelines.yml
-├── .gitignore
-└──  README.md
+├──  .gitignore
+└── README.md
+```
 ---
 
 ##  ⚙️ Tecnologias  Utilizadas
