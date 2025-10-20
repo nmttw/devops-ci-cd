@@ -27,9 +27,9 @@ devops-ci-cd/
 
 ##  ⚙️ Tecnologias  Utilizadas
 
-- Git  (Bitbucket  ou  Azure Repos)
+- Git
 -  Azure  DevOps Pipelines
--  Python  3.x
+-  Python  3.
 -  Pytest
 -  YAML
 
@@ -38,7 +38,7 @@ devops-ci-cd/
 ## 🧪  Como  Executar  Localmente
 
 #  Clonar o  repositório
-git  clone https://github.com/seu-usuario/devops-desafio-ci-cd.git
+git  clone https://github.com/seu-usuario/devops-ci-cd.git
 cd  devops-desafio-ci-cd
 
 #  Instalar  dependências
