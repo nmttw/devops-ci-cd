@@ -29,7 +29,7 @@ devops-ci-cd/
 
 - Git
 -  Azure DevOps Pipelines
--  Python  3.
+-  Python  3.x
 -  Pytest
 -  YAML
 
