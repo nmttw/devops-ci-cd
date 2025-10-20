@@ -11,3 +11,36 @@
  ---
  
 ##  📁  Estrutura  do Projeto
+
+devops-ci-cd/
+├──  src/
+│     └──  app.py
+├──  tests/
+│     └──  test_app.py
+├── requirements.txt
+├──  azure-pipelines.yml
+├── .gitignore
+└──  README.md
+---
+
+##  ⚙️ Tecnologias  Utilizadas
+
+- Git  (Bitbucket  ou  Azure Repos)
+-  Azure  DevOps Pipelines
+-  Python  3.x
+-  Pytest
+-  YAML
+
+---
+
+## 🧪  Como  Executar  Localmente
+
+#  Clonar o  repositório
+git  clone https://github.com/seu-usuario/devops-desafio-ci-cd.git
+cd  devops-desafio-ci-cd
+
+#  Instalar  dependências
+pip install  -r  requirements.txt
+
+#  Executar  testes
+pytest
