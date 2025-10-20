@@ -38,8 +38,10 @@ devops-ci-cd/
 ## 🧪  Como  Executar  Localmente
 
 #  Clonar o  repositório
-git  clone https://github.com/seu-usuario/devops-ci-cd.git
-cd  devops-desafio-ci-cd
+```bash
+ git clone  https://github.com/seu-usuario/devops-desafio-ci-cd.git
+ cd devops-desafio-ci-cd
+ ```
 
 #  Instalar  dependências
 pip install  -r  requirements.txt
