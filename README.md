@@ -28,7 +28,7 @@ devops-ci-cd/
 ##  ⚙️ Tecnologias  Utilizadas
 
 - Git
--  Azure  DevOps Pipelines
+-  Azure DevOps Pipelines
 -  Python  3.
 -  Pytest
 -  YAML
@@ -39,7 +39,7 @@ devops-ci-cd/
 
 #  Clonar o  repositório
 ```bash
- git clone  https://github.com/seu-usuario/devops-desafio-ci-cd.git
+ git clone  https://github.com/seu-usuario/devops-ci-cd.git
  cd devops-desafio-ci-cd
  ```
 
