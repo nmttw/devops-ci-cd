@@ -1,0 +1,25 @@
+trigger:
+   branches:
+       include:
+          -  develop
+
+pool:
+    vmImage: 'ubuntu-latest'
+
+steps:
+- task:  UsePythonVersion@0
+   inputs:
+       versionSpec:  '3.x'
+
+-  script:  |
+       pip install  -r  requirements.txt
+   displayName:  'Instalar  dependências'
+
+-  script:  |
+      pytest
+    displayName: 'Executar  testes'
+
+- script:  |
+       mkdir  deploy
+      cp  -r  src/*  deploy/
+   displayName:  'Simular deploy'
