@@ -1,2 +1,2 @@
 def hello():
-       return  "Desafio  DevOps rodando  com  sucesso!"
+       return "Desafio DevOps rodando com sucesso!"
