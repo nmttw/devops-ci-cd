@@ -1,4 +1,5 @@
-from  src.app  import hello
+from src.app import hello
+
+def test_hello():
+ assert hello() == "Desafio DevOps rodando com sucesso!"
  
- def  test_hello():
-       assert  hello()  ==  "Desafio DevOps  rodando  com  sucesso!"
