@@ -44,7 +44,16 @@ devops-ci-cd/
  ```
 
 #  Instalar  dependências
+```bash
 pip install  -r  requirements.txt
+```
 
 #  Executar  testes
-pytest
+```bash
+export  PYTHONPATH=$(pwd)
+pytest -s
+```
+
+# PROJETO EM EVOLUÇÃO
+-[] Boas Práticas em Commit
+-[] Refatoração da Run
