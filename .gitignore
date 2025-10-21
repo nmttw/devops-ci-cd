@@ -1,7 +1,7 @@
- __pycache__/
- *.pyc
- venv/
+__pycache__/
+*.pyc
+venv/
 .env
- deploy/
- .vscode/
- .idea/
+deploy/
+.vscode/
+.idea/
