@@ -55,5 +55,5 @@ pytest -s
 ```
 
 # PROJETO EM EVOLUÇÃO
--[] Boas Práticas em Commit
--[] Refatoração da Run
+- [ ] Boas Práticas em Commit
+- [ ] Refatoração da Run
